@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# TensorFlow / Keras model files
+*.h5
+*.keras
+
+# OS files
+.DS_Store
+Thumbs.db
+
+png
