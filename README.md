@@ -87,7 +87,6 @@ Install dependencies
 
 pip install -r requirements.txt
 
-
 Download or place your trained models
 
 model/cotton_leaf_model.keras
@@ -95,6 +94,12 @@ model/cotton_leaf_model.keras
 model/cotton_leaf_model.h5
 
 model/class_indices.json
+
+or Train Model
+python src/train.py
+
+Evaluate Model
+python src/evaluate.py
 
 Usage
 
