@@ -3,8 +3,8 @@
 An **AI-powered Deep Learning web application** that detects cotton plant leaf diseases using **Computer Vision** and **Convolutional Neural Networks (CNN)**.  
 The system allows users to upload or capture a cotton leaf image and instantly receive disease predictions along with a confidence score through an interactive web interface.
 
+🔗 **Demo Video :** https://www.youtube.com/watch?v=FObA19vg2ug
 ---
-
 ## 🚀 Key Highlights
 
 - 🤖 Deep Learning–based disease classification (CNN + Transfer Learning)
