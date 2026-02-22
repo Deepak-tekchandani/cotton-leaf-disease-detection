@@ -1,25 +1,73 @@
-# Cotton Leaf Disease Detection
+# 🌿 Cotton Leaf Disease Detection — AI Web Application
 
-A web application that uses **AI (TensorFlow + Keras)** to detect diseases in cotton leaves. Users can **upload images** or use a **live camera capture** to get predictions with confidence scores. Built with **Flask** and a mobile-friendly **Bootstrap UI**.
+An **AI-powered Deep Learning web application** that detects cotton plant leaf diseases using **Computer Vision** and **Convolutional Neural Networks (CNN)**.  
+The system allows users to upload or capture a cotton leaf image and instantly receive disease predictions along with a confidence score through an interactive web interface.
+
+---
+
+## 🚀 Key Highlights
+
+- 🤖 Deep Learning–based disease classification (CNN + Transfer Learning)
+- 🌐 Flask-based AI web application
+- 📱 Mobile-friendly interface with live camera capture
+- 📊 Prediction confidence visualization
+- ⚡ Real-time image prediction
+- 🧹 Clear/reset image functionality
+- 🎨 Responsive Bootstrap-based UI
 
 ---
 
-## Features
+## 🦠 Detected Diseases
 
-- Detects 7 types of leaf conditions:
-  1. Alternaria Leaf Spot (Fungal)
-  2. Anthracnose (Bacteria)
-  3. Bacterial Blight
-  4. Healthy
-  5. Leaf Curl Virus
-  6. Thrips (Insect)
-  7. Whiteflies (Insect)
-- Upload image or capture via live camera
-- Shows prediction with confidence bar
-- Mobile-friendly UI
-- Option to clear uploaded image
+The model is trained to classify the following cotton leaf conditions:
+
+- Alternaria Leaf Spot (Fungal)
+- Anthracnose (Bacterial)
+- Bacterial Blight
+- Healthy Leaf
+- Leaf Curl Virus
+- Thrips Insect Damage
+- Whiteflies Insect Damage
 
 ---
+
+## 🛠 Tech Stack
+
+### 🧠 AI / Machine Learning
+- Python
+- TensorFlow
+- Keras
+- Convolutional Neural Networks (CNN)
+- Transfer Learning (InceptionV3)
+
+### ⚙️ Backend
+- Flask (Python Web Framework)
+
+### 🎨 Frontend
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+
+### 🧰 Tools & Libraries
+- OpenCV
+- NumPy
+- Git & GitHub
+
+---
+
+## 🧪 Model Training
+
+The deep learning model was trained using transfer learning techniques:
+
+- `.keras` — Modern recommended model format
+- `.h5` — Legacy compatibility format
+
+---
+
+## 🧠 How It Works
+
+Upload or capture a cotton leaf image → Model processes image → CNN predicts disease → Result displayed with confidence percentage.
 
 ## Installation
 
